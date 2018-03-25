@@ -1,0 +1,17 @@
+[
+  {
+    "ID": "classic",
+    "Name": "Classic Ad",
+    "Price": 269.99
+  },
+  {
+    "ID": "standout",
+    "Name": "Standout Ad",
+    "Price": 322.99
+  },
+  {
+    "ID": "premium",
+    "Name": "Premium Ad",
+    "Price": 394.99
+  }
+]

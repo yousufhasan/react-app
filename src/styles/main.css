@@ -1,0 +1,99 @@
+/* cart */
+/* product */
+.bg-lighter-dark {
+  background-color: #1c2331; }
+
+html {
+  font-size: 16px; }
+
+section {
+  margin: 50px 0; }
+
+.section_products .card .card-header {
+  border-radius: 5px 5px 0px 0px;
+  height: 62px;
+  padding: 0; }
+  .section_products .card .card-header p {
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px; }
+
+.section_products .card .classic {
+  background-color: #eac80d;
+  border-bottom: 3px solid #bfa30c;
+  color: #ffffff; }
+
+.section_products .card .standout {
+  background-color: #1abc9c;
+  border-bottom: 3px solid #18937b;
+  color: #ffffff; }
+
+.section_products .card .premium {
+  background-color: #5d6a9a;
+  border-bottom: 3px solid #474f6f;
+  color: #ffffff; }
+
+.section_products .card .card-pricing {
+  background-color: #2b2937;
+  font-family: "Open Sans";
+  font-style: condensed;
+  font-size: 90px;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 1px solid #494a5a;
+  padding-bottom: 39px; }
+  .section_products .card .card-pricing span {
+    font-size: 32px; }
+  .section_products .card .card-pricing sup {
+    vertical-align: super;
+    font-size: 45px; }
+  .section_products .card .card-pricing .ad {
+    font-size: 18px;
+    color: #575757;
+    padding: 0px;
+    margin: -10px; }
+  .section_products .card .card-pricing .old {
+    text-decoration: line-through; }
+
+.section_products .card .list-group {
+  list-style: none;
+  font-family: "Open Sans";
+  color: #9095aa;
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px; }
+  .section_products .card .list-group .list-group-item {
+    border-bottom: 1px solid #494a5a;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 52px;
+    line-height: 52px;
+    background-color: #2b2937; }
+
+.section_products .card .card-footer {
+  background-color: #2b2937; }
+  .section_products .card .card-footer .btn {
+    margin: 0 auto;
+    display: block;
+    padding: 7px 30px; }
+
+.section_cart .quantity {
+  width: 100px;
+  display: inline-block; }
+
+.section_cart .table th,
+.section_cart .table td {
+  text-align: center; }
+
+.section_cart .total {
+  font-weight: bold; }
+
+.section_cart .old {
+  text-decoration: line-through;
+  padding: 0 5px;
+  display: inline-block; }

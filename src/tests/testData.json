@@ -1,0 +1,112 @@
+[
+  {
+    "cart": [
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "standout"
+      },
+      {
+        "PID": "premium"
+      }
+    ],
+    "expectedTotal": 987.97,
+    "expectedQuantity": 3,
+    "customer": "default",
+    "remarks": "No Offer"
+  },
+  {
+    "cart": [
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "premium"
+      }
+    ],
+    "expectedTotal": 934.97,
+    "expectedQuantity": 4,
+    "customer": "unilever",
+    "remarks":
+      "Will get 3 for 2 deal on Classic Items. Purchased classic Items = 2 + 1 Free Item, Total Quantity = 4"
+  },
+  {
+    "cart": [
+      {
+        "PID": "standout"
+      },
+      {
+        "PID": "standout"
+      },
+      {
+        "PID": "standout"
+      },
+      {
+        "PID": "premium"
+      }
+    ],
+    "expectedTotal": 1294.96,
+    "expectedQuantity": 4,
+    "customer": "apple",
+    "remarks":
+      "Gets a discount on Standout Ads where the price drops to $299.99 per ad"
+  },
+  {
+    "cart": [
+      {
+        "PID": "premium"
+      },
+      {
+        "PID": "premium"
+      },
+      {
+        "PID": "premium"
+      },
+      {
+        "PID": "premium"
+      }
+    ],
+    "expectedTotal": 1519.96,
+    "expectedQuantity": 4,
+    "customer": "nike",
+    "remarks":
+      "Gets a discount on Standout Ads where the price drops to $299.99 per ad"
+  },
+  {
+    "cart": [
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "classic"
+      },
+      {
+        "PID": "classic"
+      }
+    ],
+    "expectedTotal": 2159.92,
+    "expectedQuantity": 12,
+    "customer": "unilever",
+    "remarks":
+      "Will get 3 for 2 deal on Classic Items. Purchased Items: 8, Free Items: 4 Total Quantity = 12"
+  }
+]

@@ -1,0 +1,21 @@
+.section_cart {
+  .quantity {
+    width: $cart-quantity-width;
+    display: inline-block;
+  }
+
+  .table {
+    th,
+    td {
+      text-align: $cart-table-alignment;
+    }
+  }
+  .total {
+    font-weight: bold;
+  }
+  .old {
+    text-decoration: line-through;
+    padding: 0 5px;
+    display: inline-block;
+  }
+}

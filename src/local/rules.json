@@ -1,0 +1,50 @@
+[
+  {
+    "CustomerID": "apple",
+    "ProductID": "standout",
+    "DiscountType": "Price",
+    "Price": 299.99,
+    "NumberOfItems": 0,
+    "ExtraItems": 0
+  },
+  {
+    "CustomerID": "ford",
+    "ProductID": "standout",
+    "DiscountType": "Price",
+    "Price": 309.99,
+    "NumberOfItems": 0,
+    "ExtraItems": 0
+  },
+  {
+    "CustomerID": "ford",
+    "ProductID": "classic",
+    "DiscountType": "CartAdditionalItems",
+    "Price": null,
+    "NumberOfItems": 4,
+    "ExtraItems": 1
+  },
+  {
+    "CustomerID": "ford",
+    "ProductID": "premium",
+    "DiscountType": "CartDiscount",
+    "Price": 389.99,
+    "NumberOfItems": 3,
+    "ExtraItems": 0
+  },
+  {
+    "CustomerID": "nike",
+    "ProductID": "premium",
+    "DiscountType": "CartDiscount",
+    "Price": 379.99,
+    "NumberOfItems": 4,
+    "ExtraItems": 0
+  },
+  {
+    "CustomerID": "unilever",
+    "ProductID": "classic",
+    "DiscountType": "CartAdditionalItems",
+    "Price": null,
+    "NumberOfItems": 2,
+    "ExtraItems": 1
+  }
+]

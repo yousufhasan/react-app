@@ -1,0 +1,87 @@
+.section_products {
+  .card {
+    .card-header {
+      border-radius: 5px 5px 0px 0px;
+      height: $product-card-header-height;
+      padding: 0;
+      p {
+        font-family: $font-family;
+        font-weight: $font-weight-stronger;
+        font-size: $product-card-header-font-size;
+        text-transform: uppercase;
+        color: $color-white;
+        text-align: center;
+        padding-top: 10px;
+      }
+    }
+    .classic {
+      background-color: $color-light-yellow1;
+      border-bottom: $product-card-header-border-bottom-width solid
+        $color-light-yellow2;
+      color: $color-white;
+    }
+    .standout {
+      background-color: $color-light-green1;
+      border-bottom: $product-card-header-border-bottom-width solid
+        $color-light-green2;
+      color: $color-white;
+    }
+    .premium {
+      background-color: $color-light-blue1;
+      border-bottom: $product-card-header-border-bottom-width solid
+        $color-light-blue2;
+      color: $color-white;
+    }
+    .card-pricing {
+      background-color: $color-gray-dark;
+      font-family: $font-family;
+      font-style: condensed;
+      font-size: $product-card-header-pricing-font-size;
+      color: $color-white;
+      text-align: center;
+      border-bottom: 1px solid $color-gray-light1;
+      padding-bottom: 39px;
+      span {
+        font-size: 32px;
+      }
+      sup {
+        vertical-align: super;
+        font-size: 45px;
+      }
+      .ad {
+        font-size: 18px;
+        color: $color-gray-light2;
+        padding: 0px;
+        margin: -10px;
+      }
+      .old {
+        text-decoration: line-through;
+      }
+    }
+    .list-group {
+      list-style: none;
+      font-family: $font-family;
+      color: $color-offwhite1;
+      padding: 0px;
+      margin: 0px;
+      font-size: 18px;
+      .list-group-item {
+        border-bottom: 1px solid $color-gray-light1;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        height: $product-card-feature-height;
+        line-height: $product-card-feature-height;
+        background-color: $color-gray-dark;
+      }
+    }
+    .card-footer {
+      background-color: $color-gray-dark;
+      .btn {
+        margin: 0 auto;
+        display: block;
+        padding: 7px 30px;
+      }
+    }
+  }
+}

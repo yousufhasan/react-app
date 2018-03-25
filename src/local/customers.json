@@ -1,0 +1,22 @@
+[
+  {
+    "ID": "default",
+    "Name": "Default"
+  },
+  {
+    "ID": "unilever",
+    "Name": "Unilever"
+  },
+  {
+    "ID": "apple",
+    "Name": "Apple"
+  },
+  {
+    "ID": "nike",
+    "Name": "Nike"
+  },
+  {
+    "ID": "ford",
+    "Name": "Ford"
+  }
+]
